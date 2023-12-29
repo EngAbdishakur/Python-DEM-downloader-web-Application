@@ -21,6 +21,6 @@ with st.sidebar:
 		df = pd.DataFrame(data={'lat':xbounds,'lon':ybounds})
 		container.map(df)
 	if st.button('Download DEM'):
-		url = 'https://portal.opentopography.org/API/globaldem?demtype=SRTMGL3&south='+south_input+'&north='+north_input+'&west='+west_input+'&east='+east_input+'&outputFormat=GTiff&API_Key=affc94e52b51bbc5657be5b80e1bf15f'
+		url = 'https://portal.opentopography.org/API/globaldem?demtype=SRTMGL3&south='+south_input+'&north='+north_input+'&west='+west_input+'&east='+east_input+'&outputFormat=GTiff&API_Key=enter your key here'
         response = requests.get(url) 
 		open('raster.tiff','wb').write(response.content)
