@@ -5,8 +5,6 @@ how to use streamlit and python to build a web application that will automate do
 This repository contains a tutorial focused on building a Python-based web application for downloading Digital Elevation Model (DEM) files using user-defined coordinates.
 
 ## Tutorial Overview
-
-- **Influence**: The tutorial's direction was guided by an audience poll favoring Python projects from scratch.
 - **Objective**: Create a user-friendly web app facilitating DEM downloads based on provided coordinates.
 - **Technical Elements Covered**:
   - Streamlit Framework Usage
